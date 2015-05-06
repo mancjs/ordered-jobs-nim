@@ -1,0 +1,2 @@
+#!/bin/bash
+../nim-0.11.2/bin/nim js -d:nodejs -o:jobs.js jobs.nim && node jobs.js
